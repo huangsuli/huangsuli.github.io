@@ -1,0 +1,14 @@
+{
+  "hosting": {
+    "public": "/home/suli/Documents/quickstart-js/database",
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  },
+  "database": {
+    "rules": "database.rules.json"
+  }
+}
